@@ -1,0 +1,37 @@
+.recipe-window{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 1rem;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    width: 25rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(172, 166, 166);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.recipe:hover{
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+.recipe h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.recipe img{
+    width: 100%;
+}
